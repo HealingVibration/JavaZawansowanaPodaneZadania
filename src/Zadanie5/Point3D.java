@@ -1,3 +1,4 @@
+package Zadanie5;
 public class Point3D extends Point2D {
 
     private float z;
@@ -36,7 +37,7 @@ public class Point3D extends Point2D {
     @Override
     public String toString() {
         return "(" +
-                 x +
+                x +
                 "," + y +
                 "," + z +
                 ")";

@@ -1,4 +1,5 @@
-import org.w3c.dom.ls.LSOutput;
+package Zadanie5;
+
 
 public class Point2D {
     //Zad1
