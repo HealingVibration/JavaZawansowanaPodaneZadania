@@ -14,6 +14,11 @@ public class Main {
         circle.moveLeft();
         point.print(point);
 
+        Circle circleToResize = new Circle(5);
+        ResizableCircle circleResize = new ResizableCircle(8);
+      circleResize.resize(5);
+        System.out.println(circleToResize.getR());
+
 
     }
 }
